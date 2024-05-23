@@ -1,0 +1,4 @@
+.contenido{
+    display: grid;
+    grid-row: 1fr;
+}
