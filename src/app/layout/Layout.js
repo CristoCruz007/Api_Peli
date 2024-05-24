@@ -1,17 +1,18 @@
 import React from 'react';
+import "./layout.css";
+
 import {Outlet } from 'react-router-dom';
-import "./app.css";
 export default function Layout() {
   return (
     <>
       <div className='navbar'>
         <div className='logo'>
-          <h1>Logo</h1>
+          <h2>Cine AyC</h2>
         </div>
         <div className='rutas'>
-          <a href='#'>Anime</a>
-          <a href='#'>Serie</a>
-          <a href='#'>Terror</a>
+          <a className="link" href='#'>Anime</a>
+          <a className="link" href='#'>Serie</a>
+          <a className="link" href='#'>Terror</a>
         </div>
         <div className='buscar'>
           <input className='buscar' type='search' placeholder='Buscar'></input>
